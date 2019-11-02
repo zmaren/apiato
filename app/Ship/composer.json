@@ -1,0 +1,19 @@
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/zmaren/apiato-core"
+    }
+  ],
+  "require": {
+    "apiato/core": "dev-master"
+  },
+  "require-dev": {
+    "barryvdh/laravel-ide-helper": "2.*"
+  },
+  "autoload": {
+    "files": [
+      "Helpers/mix.php"
+    ]
+  }
+}
