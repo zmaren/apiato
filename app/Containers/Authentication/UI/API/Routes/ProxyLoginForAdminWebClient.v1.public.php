@@ -20,7 +20,7 @@
   "refresh_token": "ZFDPA1S7H8Wydjkjl+xt+hPGWTagX..."
 }
  */
-$router->post('clients/web/admin/login', [
+$router->post('login', [
     'as' => 'api_authentication_client_admin_web_app_login_proxy',
     'uses'  => 'Controller@proxyLoginForAdminWebClient',
 ]);
